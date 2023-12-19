@@ -1,0 +1,152 @@
+{
+   "questions_4_Option":[
+      {
+         "question":"My computer is not ______ of running this software.",
+         "answer1":"able",
+         "answer2":"compatible",
+         "answer3":"capable",
+         "answer4":"suitable",
+         "correct":"capable"
+      },
+      {
+         "question":"It's said that he has ______ friends of his age.",
+         "answer1":"few",
+         "answer2":"plenty",
+         "answer3":"a little",
+         "answer4":"little",
+         "correct":"few"
+      },
+      {
+         "question":"The students ______ to be at school at 3 p.m.",
+         "answer1":"told",
+         "answer2":"have told",
+         "answer3":"were told",
+         "answer4":"tell",
+         "correct":"were told"
+      },
+      {
+         "question":"He bought all the books ______ are needed for the English course.",
+         "answer1":"that",
+         "answer2":"who",
+         "answer3":"what",
+         "answer4":"those",
+         "correct":"that"
+      },
+      {
+         "question":"The shirt in the window was ______ expensive for me to buy.",
+         "answer1":"too",
+         "answer2":"such",
+         "answer3":"enough",
+         "answer4":"so",
+         "correct":"too"
+      },
+      {
+         "question":"He couldn't get back _____ his car. He had locked himself out.",
+         "answer1":"on",
+         "answer2":"into",
+         "answer3":"in",
+         "answer4":"to",
+         "correct":"into"
+      },
+      {
+         "question":"Every member in Nataly's class admires her ______.",
+         "answer1":"honesty",
+         "answer2":"dishonest",
+         "answer3":"dishonesty",
+         "answer4":"honest",
+         "correct":"honesty"
+      },
+      {
+         "question":" If I were in charge, I ______ things differently.",
+         "answer1":"will do",
+         "answer2":"would do",
+         "answer3":"would have done",
+         "answer4":"had done",
+         "correct":"would do"
+      },
+      {
+         "question":"He is going to get married ______ the end of this month.",
+         "answer1":"on",
+         "answer2":"in",
+         "answer3":"to",
+         "answer4":"at",
+         "correct":"in"
+      },
+      {
+         "question":"Just think, ______ 2 years' time, we'll be 20 both.",
+         "answer1":"under",
+         "answer2":"in",
+         "answer3":"after",
+         "answer4":"over",
+         "correct":"in"
+      },
+      {
+         "question":"The room needs ______ for the wedding.",
+         "answer1":"decorating",
+         "answer2":"to decorate",
+         "answer3":"decorate",
+         "answer4":"be decorated",
+         "correct":"decorating"
+      },
+      {
+         "question":"I'm afraid I'm not really ______ to comment on this matter.",
+         "answer1":"qualifying",
+         "answer2":"qualified",
+         "answer3":"quality",
+         "answer4":"qualitative",
+         "correct":"qualified"
+      },
+      {
+         "question":"How long does the play ______?",
+         "answer1":"last",
+         "answer2":"extend",
+         "answer3":"prolong",
+         "answer4":"stretch",
+         "correct":"last"
+      }
+   ],
+   "questions_True_False": [
+      {
+         "question":"President Ho Chi Minh was born on May 19, 1890 in Kim Lien town.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Correct"
+      },
+      {
+         "question":"General Vo Nguyen Giap was promoted to military rank in 1948.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Correct"
+      },
+      {
+         "question":"Vietnamese people do not like to eat bread for breakfast.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Wrong"
+      },
+      {
+         "question":"The French agreed to sign the Gionevo agreement because they lost to the Vietnamese at the battle of Dien Bien Phu.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Correct"
+      },
+      {
+         "question":"VietNam U23 team has won the Seagame Championship twice.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Wrong"
+      },
+      {
+         "question":"Cristiano Ronaldo never wanted to go to VietNam.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Wrong"
+      },
+      {
+         "question":"April 30 and May 1 are the days when Vietnam unifies the North and South.",
+         "answer2":"Correct",
+         "answer3":"Wrong",
+         "correct":"Correct"
+      }
+   ]
+}

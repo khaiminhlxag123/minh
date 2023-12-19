@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/images_ketqua"
+    tools:context=".ResultView">
+
+
+    <!--    <ImageView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@drawable/icon_result" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="230dp"
+        android:text="Tổng số điểm: "
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_TotalSoDiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="300dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:text="Số câu đúng: "
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_SoCauDung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="300dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="330dp"
+        android:text="Số câu sai: "
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_SoCauSai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="80dp"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:text="Số Câu Hết Giờ: "-->
+<!--        android:textColor="@color/PaleVioletRed"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/txt_SoCauHetGio"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:textColor="@color/LightSeaGreen"-->
+<!--        android:text=""-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="80dp"-->
+<!--        android:layout_marginTop="430dp"-->
+<!--        android:text="Số Câu Bỏ Qua: "-->
+<!--        android:textColor="@color/PaleVioletRed"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/txt_SoCauBo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="430dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:textColor="@color/LightSeaGreen"-->
+<!--        android:text=""-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+
+
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/corner_background"
+        android:text="Làm lại"
+        android:onClick="btnRestart"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/corner_background"
+        android:text="Chọn mới"
+        android:onClick="btnRestart"
+        android:textStyle="bold"/>
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+
+    android:orientation="vertical"
+    tools:context=".QuizTest">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="35dp"
+        android:text="Số câu hỏi"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_SoCau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/img_clock"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/clock_icons"
+        tools:ignore="InvalidId" />
+    <TextView
+        android:id="@+id/tv_timer"
+        android:gravity="center"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="73dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Câu hỏi trắc nghiệm"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <Button
+            android:id="@+id/answer1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/corner_background"
+            android:text="Câu trả lời 1"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/answer2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/corner_background"
+            android:text="Câu trả lời 2"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/answer3"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@id/answer2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-70dp"
+            android:background="@drawable/corner_background"
+            android:text="Câu trả lời 3"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/answer4"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/corner_background"
+            android:text="Câu trả lời 4"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="590dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_Previous"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/corner_edit"
+            android:text="Trước"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Next"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/corner_edit"
+            android:text="Tiếp tục"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

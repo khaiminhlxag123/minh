@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_introductions"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CourseIntroduction">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Giới thiệu về phần mềm trắc nghiệm Tiếng Anh"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="120dp"
+        android:text="App trắc nghiệm tiếng Anh là công cụ hỗ trợ đặc biệt giúp trẻ rèn luyện và trang bị kỹ năng ngôn ngữ một cách hiệu quả nhất. Để phục vụ cho nhu cầu học tập và giảng dạy, câu hỏi trắc nghiệm tiếng Anh online đang được đông đảo phụ huynh đánh giá cao trong thời gian gần đây.
+
+Để hoàn thành tốt các bài tập và bài thi tiếng Anh, trẻ cần nắm vững từ vựng, mẫu câu và cấu trúc ngữ pháp. Sự phối hợp giữa ứng dụng học tiếng Anh để học kiến thức mới với app trắc nghiệm nhằm ôn tập và làm bài tập là rất cần thiết trong quá trình học ngôn ngữ của trẻ."
+        android:textColor="@color/black"
+        android:textSize="17dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_Start"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="115dp"
+        android:background="@drawable/corner_background"
+        android:text="Bắt đầu"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".Setting"
+    android:background="@drawable/background_settings">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="100dp"
+        >
+
+    </ImageView>
+
+    <Switch
+        android:id="@+id/switch_sound_effect"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Âm thanh"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch_background_music"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="230dp"
+        android:text="Nhạc nền"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch_timer"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="Thời gian"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center_vertical"
+        android:text="Số lượng câu hỏi"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_numberofquestion"
+        android:gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="315dp"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/corner_background"
+        android:text="confirm"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="198dp"
+        app:srcCompat="@drawable/icon_volume" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginBottom="198dp"
+        app:srcCompat="@drawable/icons_music" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginBottom="198dp"
+        app:srcCompat="@drawable/icons_time" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginBottom="198dp"
+        app:srcCompat="@drawable/icons_quiz" />
+
+
+</RelativeLayout>

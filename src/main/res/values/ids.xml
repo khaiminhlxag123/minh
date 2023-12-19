@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_question" type="id" />
+    <item name="et_answer1" type="id" />
+    <item name="et_answer2" type="id" />
+    <item name="et_answer3" type="id" />
+    <item name="et_answer4" type="id" />
+    <item name="et_correct" type="id" />
+    <item name="btn_add_question" type="id" />
+    <item name="btn_fc_build" type="id" />
+</resources>

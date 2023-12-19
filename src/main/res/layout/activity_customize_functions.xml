@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomizeFunctions"
+    android:background="@drawable/background_app">
+
+
+    <Button
+        android:id="@+id/btn_fc_setting"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/corner_edit"
+        android:backgroundTint="@color/purple_500"
+        android:text="Cài đặt"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_fc_quiz"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/corner_edit"
+        android:backgroundTint="@color/Cyan_1"
+        android:text="Trả lời câu hỏi"
+        android:textSize="20dp" />
+    <!--<Button
+        android:id="@+id/btn_fc_build"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/corner_edit"
+        android:backgroundTint="@color/Khaki"
+        android:drawableLeft="@drawable/sharp_post_add_24"
+        android:text="Thêm câu hỏi"
+        android:textSize="20dp" />-->
+</RelativeLayout>
